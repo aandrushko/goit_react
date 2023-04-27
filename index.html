@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- В цьому місці ми підключаємо 2 JS файли. Де один це сама бібліотека React, a інший це файл це пакет react-dom. -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>React start</title>
+</head>
+
+<body>
+<div id="root"></div>
+
+<script type="text/javascript">
+    ReactDOM.render(
+        React.createElement("h1", {}, "Let's learn React update"),
+        document.getElementById("root")
+    );
+</script>
+</body>
+</html>
