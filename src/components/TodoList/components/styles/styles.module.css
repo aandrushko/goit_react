@@ -1,0 +1,41 @@
+@value completeClr: #AFF19D;
+@value inProgressClr: #D8BE3E;
+@value notStartedClr: #EAE8EC;
+
+.listItem {
+    font-size: 20px;
+    list-style: none;
+    text-align: left;
+    padding: 5px 30px;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.listItem:hover {
+    background-color: brown;
+}
+
+.in_progress {
+    composes: listItem;
+    background-color: inProgressClr;
+}
+
+.complete {
+    composes: listItem;
+    background-color: completeClr;
+}
+
+.not_started {
+    composes: listItem;
+    background-color: notStartedClr;
+}
+
+
+.default_background {
+    composes: listItem;
+    background-color: grey;
+}
+
+.highlighted {
+    border: 2px solid purple;
+}

@@ -1,0 +1,29 @@
+.listItem {
+    font-size: 20px;
+    list-style: none;
+    text-align: left;
+    padding: 5px 30px;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.listItem:hover {
+    background-color: brown;
+}
+
+.in_progress {
+    background-color: #D8BE3E;
+}
+
+.complete {
+    background-color: #AFF19D;
+}
+
+.not_started {
+    background-color: #EAE8EC;
+}
+
+
+.default_background {
+    background-color: grey;
+}
