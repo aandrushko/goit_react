@@ -1,0 +1,13 @@
+.navigation_wrapper{
+    max-width: 500;
+    display: flex;
+    justify-content: center;
+}
+.active {
+    border: 2px solid black;
+    width: 150px;
+}
+.button{
+    background-color: aliceblue;
+    color: blue;
+}

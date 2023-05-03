@@ -1,5 +1,5 @@
-import TodoListItem from "./components/TodoListItem";
-import Header from "./components/Header";
+import TodoListItem from "./TodoListItem";
+import Header from "./Header";
 const Todolist = () => {
     const todoListItemsArray = [
         { 

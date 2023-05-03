@@ -1,0 +1,21 @@
+.heading_container {
+    margin: 0px auto;
+    text-align: center;
+}
+.button_container {
+    width: 300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    background-color: #ccc;
+    border: none;
+    height: 30px;
+    font-size: 14;
+    width: 100px;
+    cursor: pointer;
+}
+.state{
+ font-size: 30px;
+}
