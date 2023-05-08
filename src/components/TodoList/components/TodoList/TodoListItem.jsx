@@ -8,10 +8,9 @@ import css from './styles/styles.module.css';
 const TodoListItem = ({itemData}) => {
     const { state, title, bold } = itemData;
     const classNames = clsx(
-        state === 'planned'?
-         css.default_background : css[state],
-         bold && css.highlighted
-         )
+      css.listItem, state === 'planned'?
+      css.default_background : css[state],
+      bold && css.highlighted)
    
     return (
       <li className={classNames}>
